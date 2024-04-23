@@ -3,7 +3,7 @@ Cryptography is like building a secret fort for your information! It's the pract
 Cryptography protects our online activities, like online banking and sending messages, by ensuring only the intended person can access the information. 
 
 ## Ciphers
-![cipher].(https://en.wikipedia.org/wiki/File:Caesar_cipher_left_shift_of_3.svg)
+![cipher].(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Caesar_cipher_left_shift_of_3.svg/1920px-Caesar_cipher_left_shift_of_3.svg.png)
 
 A cipher is a secret code! It's a way to transform a readable message into something scrambled and unreadable, like a spy's secret note.  
 Think shifting letters in the alphabet (Caesar cipher) or replacing them with symbols. Ciphers are a fun way to explore the world of secret messages and are a building block for cryptography, which keeps our online communication secure.
