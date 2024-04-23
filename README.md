@@ -20,4 +20,9 @@ Think shifting letters in the alphabet (Caesar cipher) or replacing them with sy
 5  | v | w | x |  y  | z
 ###### Source: [Wikipedia](https://en.wikipedia.org/wiki/Polybius_square)
 
+### [AES](./aes.rs)
+The Advanced Encryption Standard (AES), also known by its original name Rijndael (Dutch pronunciation: [ˈrɛindaːl]), is a specification for the encryption of electronic data established by the U.S. National Institute of Standards and Technology (NIST) in 2001.
+
+###### Source: [Wikipedia](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
+
 ![aes](https://upload.wikimedia.org/wikipedia/commons/5/50/AES_%28Rijndael%29_Round_Function.png)
