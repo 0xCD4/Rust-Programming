@@ -10,7 +10,7 @@ fn main() {
 fn rc4(key: &[u8], data: &[u8]) -> Vec<u8> {
     let mut s: Vec<u8> = (0..=255).collect();
     let key_len = key.len();
-
+    // KSA algorithm
     let mut j = 0;
     for i in 0..256 {
         j = (j + s[i] as usize + key[i % key_len] as usize) % 256;
@@ -21,6 +21,7 @@ fn rc4(key: &[u8], data: &[u8]) -> Vec<u8> {
     let mut i = 0;
     let mut result = Vec::with_capacity(data.len());
 
+    // PRGA algorithm
     for &byte in data {
         i = (i + 1) % 256;
         j = (j + s[i] as usize) % 256;
