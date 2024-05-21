@@ -1,5 +1,6 @@
 use std::io::{self, Write};
 
+// The algorithm of Hex
 fn decimal_to_hex(mut num: u32) -> String {
     if num == 0 {
         return "0".to_string();
@@ -19,7 +20,7 @@ fn decimal_to_hex(mut num: u32) -> String {
 
 fn main() {
     print!("Enter a decimal number: ");
-    io::stdout().flush().unwrap();  // Ensure the prompt is displayed before reading input
+    io::stdout().flush().unwrap(); // Prompt displayed before reading
 
     let mut input = String::new();
     io::stdin().read_line(&mut input).expect("Failed to read line");
